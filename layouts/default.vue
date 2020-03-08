@@ -1,8 +1,29 @@
 <template>
   <div>
+    <navbar :navs="navs" />
     <nuxt />
   </div>
 </template>
+
+<script>
+import Navbar from '../components/Navbar'
+
+export default {
+  components: {
+    Navbar
+  },
+
+  data () {
+    return {
+      navs: [
+        { name: 'About', to: '/' },
+        { name: 'Curriculum vitae', to: '/curriculum-vitae' },
+        { name: 'Blog' }
+      ]
+    }
+  }
+}
+</script>
 
 <style>
 html {
