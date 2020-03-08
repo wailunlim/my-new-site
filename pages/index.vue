@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto mt-5">
+  <div class="mt-5">
     <info>
       <template v-slot:title>
         Hello.

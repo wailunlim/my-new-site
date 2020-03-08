@@ -1,7 +1,9 @@
 <template>
   <div>
     <navbar :navs="navs" />
-    <nuxt />
+    <div class="container mx-auto">
+      <nuxt />
+    </div>
   </div>
 </template>
 
