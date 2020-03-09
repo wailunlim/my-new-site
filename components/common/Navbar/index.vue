@@ -1,7 +1,7 @@
 <template>
   <!-- TODO: support for mobile -->
   <div class="flex w-screen bg-vue-mint sticky pl-5">
-    <div v-for="nav in navs" :key="nav.name" class="py-3 px-5 text-lg">
+    <div v-for="nav in navs" :key="nav.name" class="py-3 px-5 text-2xl">
       <nuxt-link
         v-if="!!nav.to"
         :to="nav.to"

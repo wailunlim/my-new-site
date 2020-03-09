@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5">
+  <div>
     <info>
       <template v-slot:title>
         Hello world!
