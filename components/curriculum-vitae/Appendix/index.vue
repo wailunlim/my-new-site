@@ -47,6 +47,13 @@
         <tr>
           <td />
           <td>
+            Computer Organisation
+          </td>
+          <td>A-</td>
+        </tr>
+        <tr>
+          <td />
+          <td>
             Software Engineering #
           </td>
           <td>A-</td>
