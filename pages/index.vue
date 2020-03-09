@@ -2,7 +2,7 @@
   <div class="mt-5">
     <info>
       <template v-slot:title>
-        Hello.
+        Hello world!
       </template>
       <template v-slot:subtitle>
         My name is Wai Lun.
@@ -17,7 +17,7 @@
         </p>
         <br>
         <p>
-          My main interests are in the field of programming languages and software engineering. Outside of programming I enjoy video games, TV shows and movies. I also play football and go for the occasional swim to keep fit.
+          My main interests are in the field of programming languages and software engineering (especially web development). Outside of programming I enjoy video games, TV shows and movies. I also play football and go for the occasional swim to keep fit.
         </p>
       </template>
     </info>
