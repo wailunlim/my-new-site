@@ -56,28 +56,28 @@
           <td>
             Software Engineering #
           </td>
-          <td>A-</td>
+          <td>A</td>
         </tr>
         <tr>
           <td />
           <td>
             Introduction to Computer Networks
           </td>
-          <td>A-</td>
+          <td>A</td>
         </tr>
         <tr>
           <td />
           <td>
             Introduction to Operating Systems
           </td>
-          <td>A-</td>
+          <td>A+</td>
         </tr>
         <tr>
           <td />
           <td>
             Design and Analysis of Algorithms
           </td>
-          <td>A-</td>
+          <td>B</td>
         </tr>
         <tr>
           <td class="font-medium">
