@@ -5,227 +5,9 @@
     </p>
     <p><span class="font-medium">Degree</span>: Bachelor of Computing (Honours) in Computer Science</p>
     <p><span class="font-medium">Cumulative Average Point</span>: 4.56 / 5.00</p>
-    <table class="table-fixed">
-      <thead class="text-left">
-        <tr>
-          <th class="1/4">
-            Category
-          </th>
-          <th>Course Name</th>
-          <th class="w-1/6">
-            Grade
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="font-medium">
-            Computer Science Foundation
-          </td>
-          <td>Programming Methodology</td>
-          <td>A</td>
-        </tr>
-        <tr>
-          <td />
-          <td>Discrete Structures</td>
-          <td>S</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Programming Methodology II
-          </td>
-          <td>A+</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Data Structures and Algorithms
-          </td>
-          <td>A-</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Computer Organisation
-          </td>
-          <td>A-</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Software Engineering #
-          </td>
-          <td>A</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Introduction to Computer Networks
-          </td>
-          <td>A</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Introduction to Operating Systems
-          </td>
-          <td>A+</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Design and Analysis of Algorithms
-          </td>
-          <td>B</td>
-        </tr>
-        <tr>
-          <td class="font-medium">
-            Computer Science Breadth and Depth
-          </td>
-          <td>Database Systems</td>
-          <td>A-</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Programming Language Concepts
-          </td>
-          <td>A-</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Software Engineering Principles and Patterns
-          </td>
-          <td>A-</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Programming Language Implementation
-          </td>
-          <td>A-</td>
-        </tr>
-        <tr>
-          <td class="font-medium">
-            IT Professionalism
-          </td>
-          <td>
-            IS Innovations in Organisations and Society
-          </td>
-          <td>A</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Effective Communication for Computing Professionals
-          </td>
-          <td>A-</td>
-        </tr>
-        <tr>
-          <td class="font-medium">
-            Mathematics
-          </td>
-          <td>
-            Calculus for Computing
-          </td>
-          <td>B+</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Linear Algebra I
-          </td>
-          <td>S</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Probability and Statistics
-          </td>
-          <td>B</td>
-        </tr>
-        <tr>
-          <td class="font-medium">
-            Others
-          </td>
-          <td>German 1</td>
-          <td>A-</td>
-        </tr>
-        <tr>
-          <td />
-          <td>German 2</td>
-          <td>A-</td>
-        </tr>
-        <tr>
-          <td />
-          <td>German 3</td>
-          <td>S</td>
-        </tr>
-        <tr>
-          <td />
-          <td>German 4</td>
-          <td>S</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Independent Software Development Project (Orbital) ##
-          </td>
-          <td>CS</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Programming Methodology ###
-          </td>
-          <td>A+</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Internship ####
-          </td>
-          <td>CS</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Cyber Security
-          </td>
-          <td>A</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Quantitative Reasoning
-          </td>
-          <td>A-</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Asking Questions
-          </td>
-          <td>CS</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Roots and Wings - Personal and Interpersonal Effectiveness 1.0
-          </td>
-          <td>CS</td>
-        </tr>
-        <tr>
-          <td />
-          <td>
-            Traditional Chinese Knowledge of Health and Well-being
-          </td>
-          <td>S</td>
-        </tr>
-      </tbody>
-    </table>
+    <appendix-table>
+      <appendix-table-rows :rows="modules" />
+    </appendix-table>
     <div class="text-sm my-8 mr-8">
       <p>
         # The Software Engineering Project was done in a group of 5. We developed a desktop application for wedding planning agencies to efficiently manage and match clients to vendor companies based on profile information available. It has a Graphical User Interface (GUI), but most of the user interactions occurs through a Command Line Interface (CLI). The project was adapted and enhanced from an existing software application developed by the course’s core team.
@@ -256,3 +38,48 @@
     </div>
   </div>
 </template>
+
+<script>
+import AppendixTable from './AppendixTable'
+import AppendixTableRows from './AppendixTableRows'
+
+export default {
+  components: { AppendixTable, AppendixTableRows },
+  data () {
+    return {
+      modules: [
+        { category: 'Computer Science Foundation', courseName: 'Programming Methodology', grade: 'A' },
+        { category: 'Computer Science Foundation', courseName: 'Discrete Structures', grade: 'S' },
+        { category: 'Computer Science Foundation', courseName: 'Programming Methodology II', grade: 'A+' },
+        { category: 'Computer Science Foundation', courseName: 'Data Structures and Algorithms', grade: 'A-' },
+        { category: 'Computer Science Foundation', courseName: 'Computer Organisation', grade: 'A-' },
+        { category: 'Computer Science Foundation', courseName: 'Software Engineering #', grade: 'A' },
+        { category: 'Computer Science Foundation', courseName: 'Introduction to Computer Networks', grade: 'A' },
+        { category: 'Computer Science Foundation', courseName: 'Introduction to Operating Systems', grade: 'A+' },
+        { category: 'Computer Science Foundation', courseName: 'Design and Analysis of Algorithms', grade: 'B' },
+        { category: 'Computer Science Breath and Depth', courseName: 'Database Systems', grade: 'A-' },
+        { category: 'Computer Science Breath and Depth', courseName: 'Programming Language Concepts', grade: 'A-' },
+        { category: 'Computer Science Breath and Depth', courseName: 'Programming Language Implementation', grade: 'A-' },
+        { category: 'Computer Science Breath and Depth', courseName: 'Software Engineering Principles and Patterns', grade: 'A-' },
+        { category: 'IT Professionalism', courseName: 'Innovations in Organisations and Society', grade: 'A' },
+        { category: 'IT Professionalism', courseName: 'Effective Communication for Computing Professionals', grade: 'A-' },
+        { category: 'Mathematics', courseName: 'Calculus for Computing', grade: 'B+' },
+        { category: 'Mathematics', courseName: 'Linear Algebra I', grade: 'S' },
+        { category: 'Mathematics', courseName: 'Probability and Statistics', grade: 'B' },
+        { category: 'Others', courseName: 'German 1', grade: 'A-' },
+        { category: 'Others', courseName: 'German 2', grade: 'A-' },
+        { category: 'Others', courseName: 'German 3', grade: 'S' },
+        { category: 'Others', courseName: 'German 4', grade: 'S' },
+        { category: 'Others', courseName: 'Independent Software Development Project (Orbital) ##', grade: 'CS' },
+        { category: 'Others', courseName: 'Programming Methodology ###', grade: 'A+' },
+        { category: 'Others', courseName: 'Internship ####', grade: 'CS' },
+        { category: 'Others', courseName: 'Cyber Security', grade: 'A' },
+        { category: 'Others', courseName: 'Quantitative Reasoning', grade: 'A-' },
+        { category: 'Others', courseName: 'Asking Questions', grade: 'CS' },
+        { category: 'Others', courseName: 'Personal and Interpersonal Effectiveness 1.0', grade: 'CS' },
+        { category: 'Others', courseName: 'Traditional Chinese Knowledge of Health and Wellbeing', grade: 'S' }
+      ]
+    }
+  }
+}
+</script>
