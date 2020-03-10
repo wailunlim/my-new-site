@@ -8,23 +8,18 @@
     <appendix-table>
       <appendix-table-rows :rows="modules" />
     </appendix-table>
-    <div class="text-sm my-8 mr-8">
+    <div class="text-sm my-8">
       <p>
         # The Software Engineering Project was done in a group of 5. We developed a desktop application for wedding planning agencies to efficiently manage and match clients to vendor companies based on profile information available. It has a Graphical User Interface (GUI), but most of the user interactions occurs through a Command Line Interface (CLI). The project was adapted and enhanced from an existing software application developed by the course’s core team.
-      </p>
-      <p>
+        <br>
         ## The Independent Software Development Project (Orbital) was done as a pair over the 2018 summer break (May - Aug). We developed a fully functional Android Real-time Multiplayer game written in Java that integrated various services such as Google Real-time Multiplayer and Google Achievements. This project subsequently won Best Project (Advanced Level) for Orbital 2018.
-      </p>
-      <p>
+        <br>
         ### Extra modular credit given on top of the host module (Programming Methodology) for acquiring more in-depth understanding of the research issues pertaining to the subject matter.
-      </p>
-      <p>
+        <br>
         #### Credit bearing internship at Vouch SG Pte Ltd
-      </p>
-      <p>
+        <br>
         ===============
-      </p>
-      <p>
+        <br>
         NUS Grading Scale:
         <br>
         A+ & A (5.0); A- (4.5); B+ (4.0); B (3.5); B- (3.0); C+ (2.5); C (2.0); D+ (1.5); D (1.0); F (0)
