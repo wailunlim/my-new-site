@@ -40,8 +40,8 @@
 </template>
 
 <script>
-import Segment from '../Segment'
-import SegmentPiece from '../SegmentPiece'
+import Segment from '../common/Segment'
+import SegmentPiece from '../common/SegmentPiece'
 
 export default {
   components: { Segment, SegmentPiece }
