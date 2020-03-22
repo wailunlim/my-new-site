@@ -9,6 +9,9 @@ npm run build
 # navigate into build output directory
 cd dist
 
+# delete README
+rm README.md
+
 # git
 git init
 git add .
