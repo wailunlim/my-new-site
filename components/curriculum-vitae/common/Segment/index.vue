@@ -1,6 +1,6 @@
 <template>
   <div class="mb-5">
-    <p class="font-medium text-4xl mb-3">
+    <p class="font-medium text-2xl md:text-4xl mb-3">
       {{ title }}
     </p>
     <slot />

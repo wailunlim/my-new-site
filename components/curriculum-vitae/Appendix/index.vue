@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col mt-8">
+  <div class="flex flex-col mt-8 hidden md:block">
     <p class="font-bold flex self-end w-1/6 mr-5">
       APPENDIX
     </p>
