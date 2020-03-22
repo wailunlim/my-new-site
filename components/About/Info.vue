@@ -1,8 +1,8 @@
 <template>
   <div class="w-full px-5">
-    <p class="text-6xl font-medium">
+    <banner-title>
       <slot name="title" />
-    </p>
+    </banner-title>
     <p class="text-4xl font-medium mb-5">
       <slot name="subtitle" />
     </p>
@@ -13,7 +13,9 @@
 </template>
 
 <script>
-export default {
+import BannerTitle from '@/components/common/BannerTitle'
 
+export default {
+  components: { BannerTitle }
 }
 </script>

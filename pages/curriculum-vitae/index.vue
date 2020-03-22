@@ -1,6 +1,8 @@
 <template>
   <div>
-    <banner-title title="Curriculum Vitae" />
+    <banner-title class="text-center">
+      Curriculum Vitae
+    </banner-title>
     <education-segment />
     <work-experience-segment />
     <organisational-experience-segment />

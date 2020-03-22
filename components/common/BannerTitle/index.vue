@@ -1,16 +1,5 @@
 <template>
-  <p class="text-6xl mx-auto text-center py-5">
-    {{ title }}
+  <p class="text-4xl md:text-6xl mx-auto py-5 font-medium">
+    <slot />
   </p>
 </template>
-
-<script>
-export default {
-  props: {
-    title: {
-      type: String,
-      required: true
-    }
-  }
-}
-</script>
