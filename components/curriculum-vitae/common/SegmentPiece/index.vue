@@ -9,7 +9,7 @@
       </p>
       <slot name="body" />
     </div>
-    <div class="flex-grow-0 flex-shrink-0 w-1/6 pl-2 hidden md:block">
+    <div class="flex-grow-0 flex-shrink-0 w-1/6 pl-8 hidden md:block">
       <slot name="rightCol" />
     </div>
   </div>

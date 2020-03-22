@@ -13,8 +13,8 @@
       <template v-slot:body>
         <p>Vice President (Student Life)</p>
         <ul class="list-inside list-disc">
-          <li>Supervised the organisation of 5 freshmen orientation projects that involved over 1000 School of Computing freshmen and seniors</li>
-          <li>Represented the club in meetings, conferences and dialogues with NUS Students’ Union and various NUS Offices</li>
+          <li>Supervised the organisation of 5 freshmen orientation projects that involved over 1000 students</li>
+          <li>Represented the club in meetings and dialogues with NUS Students’ Union and various NUS Offices</li>
         </ul>
       </template>
     </segment-piece>
@@ -31,10 +31,8 @@
       <template v-slot:body>
         <p>Vice Project Director (Administrative), Freshmen Social Camp</p>
         <ul class="list-inside list-disc">
-          <li>Budgeted for and organised an orientation camp for 200 freshmen matriculating into SoC</li>
-          <li>
-            Managed the recruitment and manpower alrightCol of over 70 seniors for the camp
-          </li>
+          <li>Organised an orientation camp for 200 freshmen</li>
+          <li>Managed the recruitment of over 70 orientation group leaders</li>
         </ul>
       </template>
     </segment-piece>

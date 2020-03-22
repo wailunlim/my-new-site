@@ -10,13 +10,9 @@
     </appendix-table>
     <div class="text-sm my-8">
       <p>
-        # The Software Engineering Project was done in a group of 5. We developed a desktop application for wedding planning agencies to efficiently manage and match clients to vendor companies based on profile information available. It has a Graphical User Interface (GUI), but most of the user interactions occurs through a Command Line Interface (CLI). The project was adapted and enhanced from an existing software application developed by the course’s core team.
+        # Extra modular credit given on top of the host module (Programming Methodology) for acquiring more in-depth understanding of the research issues pertaining to the subject matter.
         <br>
-        ## The Independent Software Development Project (Orbital) was done as a pair over the 2018 summer break (May - Aug). We developed a fully functional Android Real-time Multiplayer game written in Java that integrated various services such as Google Real-time Multiplayer and Google Achievements. This project subsequently won Best Project (Advanced Level) for Orbital 2018.
-        <br>
-        ### Extra modular credit given on top of the host module (Programming Methodology) for acquiring more in-depth understanding of the research issues pertaining to the subject matter.
-        <br>
-        #### Credit bearing internship at Vouch SG Pte Ltd
+        ## Credit bearing internship at Vouch SG Pte Ltd
         <br>
         ===============
         <br>
@@ -48,7 +44,7 @@ export default {
         { category: 'Computer Science Foundation', courseName: 'Programming Methodology II', grade: 'A+' },
         { category: 'Computer Science Foundation', courseName: 'Data Structures and Algorithms', grade: 'A-' },
         { category: 'Computer Science Foundation', courseName: 'Computer Organisation', grade: 'A-' },
-        { category: 'Computer Science Foundation', courseName: 'Software Engineering #', grade: 'A' },
+        { category: 'Computer Science Foundation', courseName: 'Software Engineering', grade: 'A' },
         { category: 'Computer Science Foundation', courseName: 'Introduction to Computer Networks', grade: 'A' },
         { category: 'Computer Science Foundation', courseName: 'Introduction to Operating Systems', grade: 'A+' },
         { category: 'Computer Science Foundation', courseName: 'Design and Analysis of Algorithms', grade: 'B' },
@@ -65,9 +61,9 @@ export default {
         { category: 'Others', courseName: 'German 2', grade: 'A-' },
         { category: 'Others', courseName: 'German 3', grade: 'S' },
         { category: 'Others', courseName: 'German 4', grade: 'S' },
-        { category: 'Others', courseName: 'Independent Software Development Project (Orbital) ##', grade: 'CS' },
-        { category: 'Others', courseName: 'Programming Methodology ###', grade: 'A+' },
-        { category: 'Others', courseName: 'Internship ####', grade: 'CS' },
+        { category: 'Others', courseName: 'Independent Software Development Project (Orbital)', grade: 'CS' },
+        { category: 'Others', courseName: 'Programming Methodology #', grade: 'A+' },
+        { category: 'Others', courseName: 'Internship ##', grade: 'CS' },
         { category: 'Others', courseName: 'Cyber Security', grade: 'A' },
         { category: 'Others', courseName: 'Quantitative Reasoning', grade: 'A-' },
         { category: 'Others', courseName: 'Asking Questions', grade: 'CS' },
