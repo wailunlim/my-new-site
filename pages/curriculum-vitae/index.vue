@@ -3,6 +3,10 @@
     <banner-title class="text-center">
       Curriculum Vitae
     </banner-title>
+    <div class="flex items-center md:hidden">
+      <i class="material-icons mr-3">info</i>
+      <p>The full CV is not available on mobile displays!</p>
+    </div>
     <education-segment />
     <work-experience-segment />
     <organisational-experience-segment />
