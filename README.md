@@ -1,6 +1,10 @@
 # my-new-site
 
-> My sensational Nuxt.js project
+> My sensational Nuxt.js project; check back soon!
+
+## Technologies used
+1. Nuxt.js
+2. Tailwind.css
 
 ## Build Setup
 
