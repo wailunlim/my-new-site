@@ -1,11 +1,11 @@
 <template>
-  <table class="table-fixed">
+  <table class="table-fixed w-full">
     <thead class="text-left">
       <tr>
-        <th class="w-1/4">
+        <th class="w-1/3">
           Category
         </th>
-        <th>
+        <th class="w-1/2">
           Course Name
         </th>
         <th class="w-1/6">
