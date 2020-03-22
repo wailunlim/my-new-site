@@ -30,7 +30,7 @@
       <template v-slot:body>
         <p>Intern</p>
         <ul class="list-inside list-disc">
-          <li>Trained expressions and implemented new conversation flows into the live chatbot mounted for a client</li>
+          <li>Trained expressions and implemented new conversation flows in chatbots mounted for clients</li>
           <li>Prototyped a web application for hotel guests to select room service items easily</li>
         </ul>
       </template>
@@ -48,7 +48,7 @@
       <template v-slot:body>
         <p>Teaching Assistant for 2 modules over 3 semesters</p>
         <ul class="list-inside list-disc">
-          <li>Taught over 100 students object-oriented and functional programming concepts in Java</li>
+          <li>Taught object-oriented and functional programming concepts in Java</li>
           <li>Guided freshmen on concepts of programming and computational problem solving in Source (a subset of JavaScript)</li>
         </ul>
       </template>
