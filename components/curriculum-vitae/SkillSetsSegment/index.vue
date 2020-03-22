@@ -7,6 +7,9 @@
         </p>
       </template>
       <template v-slot:body>
+        <p class="font-semibold md:hidden">
+          Programming
+        </p>
         <ul class="mt-1">
           <li>JavaScript</li>
           <li>Java</li>
@@ -32,6 +35,9 @@
         </p>
       </template>
       <template v-slot:body>
+        <p class="font-semibold md:hidden">
+          Web
+        </p>
         <ul class="mt-1">
           <li>HTML/CSS</li>
           <li>Nuxt.js</li>
@@ -53,6 +59,9 @@
         </p>
       </template>
       <template v-slot:body>
+        <p class="font-semibold md:hidden">
+          Databases
+        </p>
         <ul class="mt-1">
           <li>PostgreSQL</li>
         </ul>
@@ -70,6 +79,9 @@
         </p>
       </template>
       <template v-slot:body>
+        <p class="font-semibold md:hidden">
+          Version Control
+        </p>
         <ul class="mt-1">
           <li>Git</li>
         </ul>
@@ -87,6 +99,9 @@
         </p>
       </template>
       <template v-slot:body>
+        <p class="font-semibold md:hidden">
+          Operating Systems
+        </p>
         <ul class="mt-1">
           <li>MacOS</li>
           <li>Linux (Ubuntu)</li>
@@ -106,6 +121,9 @@
         </p>
       </template>
       <template v-slot:body>
+        <p class="font-semibold md:hidden">
+          Languages
+        </p>
         <ul class="mt-1">
           <li>English</li>
           <li>Mandarin Chinese</li>
