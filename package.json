@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
+    "buttercms": "^1.2.2",
     "lodash": "^4.17.15",
     "nuxt": "^2.0.0"
   },
