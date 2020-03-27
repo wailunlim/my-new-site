@@ -20,7 +20,8 @@ export default {
       navs: [
         { name: 'About', to: '/' },
         { name: 'Curriculum vitae', to: '/curriculum-vitae' },
-        { name: 'Blog', to: '' } // empty string to disable navigation
+        { name: 'Blog', to: '/blog' },
+        { name: 'Fun stuffs', to: '' } // empty string to disable navigation
       ]
     }
   }
